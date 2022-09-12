@@ -8,7 +8,7 @@ try:
         for par in range(numIni,numFin+1):
             if(par%2 == 0):
                 pares.append(par)
-        print("Los números pares dentro de ese rango son: ",pares)
+        print("Los siguientes números son los pares dentro del rango especificado ",pares)
     else:
         print("El primer valor tiene que ser menor o igual al segundo valor ingresado")
 except:
