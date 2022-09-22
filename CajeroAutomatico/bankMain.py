@@ -3,7 +3,7 @@ from Usuario import Usuario as us
 from bankFunc import deposito,extraccion
  
 admin = us(usuario="admin",contrasenia="admin",nombre="Matias",apellido="Gerbaldo")
-
+print("Usuario = admin, contraseña = admin")
 
 
 cont=0
@@ -42,3 +42,4 @@ while cont<=2:
     cont= cont + 1
     if(cont>2):
         print("Le recomendamos contactar con el soporte técnico.")
+        
