@@ -13,7 +13,7 @@ def deposito():
                     resul = resul + a
                 if(opDepo==0):
                      print("Volviendo al menú principal")
-                     sleep(3)
+                     sleep(1)
                      break
             except:
                 print("ERROR, Utilice solo números")

@@ -5,5 +5,3 @@ class Usuario:
             self.contrasenia = contrasenia
             self.nombre = nombre
             self.apellido = apellido
-  
-     
