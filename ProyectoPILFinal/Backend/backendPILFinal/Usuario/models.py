@@ -7,7 +7,7 @@ class Usuario(models.Model):
 
     
     #Atributos
-        idUser = models.IntegerField(
+        idUsuario = models.IntegerField(
             primary_key=True,
             unique=True
         )

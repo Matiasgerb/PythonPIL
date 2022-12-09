@@ -1,5 +1,5 @@
 from django.db import models
-from Usuario.models import Usuario as user
+from Usuario.models import Usuario
 
 # Create your models here.
 
@@ -32,6 +32,6 @@ class Notas(models.Model):
     fechCierre = models.DateField(
 
     )
-    idUser = models.ForeignKey(
-        user,"idUser", on_delete=models.CASCADE
+    idUsuario = models.ForeignKey(
+        Usuario, on_delete=models.CASCADE
     )
