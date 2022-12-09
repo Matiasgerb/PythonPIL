@@ -43,7 +43,8 @@ BASE_APPS =[
 
 #Aplicaciones propias
 LOCAL_APPS =[
-    'Usuario'
+    'Usuario',
+    'Notas'
 ]
 
 #Aplicaciones de terceros
