@@ -31,6 +31,8 @@ class Usuario(models.Model):
             max_length=30,
             unique=True
         )
+        def __str__(self):
+         return f'{self.idUsuario} - {self.apellido} - {self.nombre}'
 
 
 

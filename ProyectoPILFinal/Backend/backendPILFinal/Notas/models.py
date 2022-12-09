@@ -35,3 +35,6 @@ class Notas(models.Model):
     idUsuario = models.ForeignKey(
         Usuario, on_delete=models.CASCADE
     )
+
+    def __str__(self):
+         return f'{self.idNotas} - {self.Titulo} - {self.descrip} - {self.estado} - {self.fechCreacion} - {self.fechCierre} - {self.idUsuario}'
